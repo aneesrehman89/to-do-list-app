@@ -1,0 +1,39 @@
+.todoForm {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    height: 40px;
+  }
+  
+  .todoForm input {
+    flex-basis: 80%;
+  }
+  
+  .todoForm button {
+    flex-basis: 20%;
+  }
+  .todoli{
+    width: 1120px;
+    margin: auto;
+    background-color: black;
+    padding: 0;
+    position: relative;
+  }
+  .todoli li{
+    margin-top: 20px;
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .todoli li span{
+    position: absolute;
+    right: 20px;
+  }
+  .completeStatus {
+    background-color: yellow;
+    color: red !important;
+    text-decoration: line-through;
+  }

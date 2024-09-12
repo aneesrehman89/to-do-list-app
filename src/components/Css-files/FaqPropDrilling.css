@@ -1,0 +1,36 @@
+.faqOuter {
+    width: 1320px;
+    margin: auto;
+  }
+  
+  .faqItems {
+    border: 1px solid black;
+    margin: 20px;
+  
+  }
+  
+  .faqItems h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .faqItems p {
+    /* padding: 10px; */
+    text-align: left;
+    transition: 0.5s;
+    height: 0px;
+    transform: scaleY(0);
+    margin: 0;
+  
+  }
+  
+  .activeAns {
+    height: auto !important;
+    padding: 10px !important;
+    transform: scaleY(1) !important;
+  }
+  

@@ -1,0 +1,33 @@
+.tabOuter{
+    width: 1220px;
+    margin: auto;
+  }
+  .tabOuter h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .tabOuter button{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+  .listOuter{
+    display: flex;
+    gap: 20px;
+  }
+  .listOuter ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .listOuter li button{
+    background-color: rgb(228, 228, 228);
+    border: none;
+    padding: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .activeButton {
+    background-color: rgb(54, 54, 149) !important;
+    color: white !important;
+  }
